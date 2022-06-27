@@ -1,0 +1,164 @@
+body {
+    font-style: verdana;
+    font-size: 14pt;
+}
+header {
+    width: 900px;
+    margin: auto;
+}
+#headwrapper{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    height: 125px;
+    box-shadow: 0px 1px 10px grey;
+}
+#headwrapper hr {
+    border: 1px #eeeeee solid;
+}
+nav {
+    width: 900px;
+    margin: auto;
+    text-align: right;
+}
+article {
+    width: 900px;
+}
+footer {
+    background-color: #00c9fd;
+    width: 100%;
+}
+* {
+    margin: 0;
+}
+header h1 {
+    padding: 20px 5px 5px 5px;
+    color: black;
+    font-size: 30pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+}
+nav a {
+    color: black;
+    font-size: 15pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: normal;
+    text-decoration: none;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+a:hover {
+    background-color: #00c9fd;
+    color: black;
+}
+#bigimage {
+    height: 550px;
+    width: 100%;
+    background-image: url(afbeeldingen/titan2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 125px 0px 0px 0px;
+}
+#bigimage p {
+    color: #00c9fd;
+    background-color: #ffffff;
+    font-size: 12pt;
+    width: 350px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+}
+p {
+    padding: 20px;
+}
+article h1 {
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25pt;
+    text-align: center;
+}
+article {
+    margin: 20px 0px 20px 0px;
+}
+article img {
+    float: right;
+    margin: 20px
+}
+article a {
+    font-weight: bold;
+    color: #00c9fd;
+    text-decoration: none;
+
+}
+article a:hover {
+    font-size: 110%;
+    color: black;
+}
+footer p {
+    color: white;
+    line-height: 150px;
+    width: 860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#contact {
+    width: 100%;
+    border-top: 1px #eeeeee solid;
+}
+#contact a {
+    font-weight: bold;
+    color: #00c9fd;
+    text-decoration: none;
+}
+.focus {
+    color: #00c9fd;
+    text-decoration: none;
+}
+main {
+    width: 900px;
+    margin: auto;
+}
+.bigleft {
+    width: 590px;
+    margin: 0px 10px 0px 0px;
+    float: left;
+    height: 515px;
+}
+.smallright {
+    width: 290px;
+    margin: 0px 0px 0px 10px;
+    float: right;
+}
+.bottom {
+    clear:both;
+}
+.onderschrift {
+    text-align: center;
+}
+table {
+    margin: 20px 0px 20px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 14pt;
+
+}
+table img {
+    margin: 10px;
+    width: 50px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+table img a :hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
